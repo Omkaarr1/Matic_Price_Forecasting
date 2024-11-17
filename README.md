@@ -137,8 +137,8 @@ Ensure you have a modern web browser like Google Chrome, Firefox, or Microsoft E
 
 ## **Screenshots**
 
-### **1. Landing Page**
-![Landing Page](https://i.ibb.co/ypcwzSJ/image.png)
+### **1. Architecture Diagram**
+![Architecture Diagram](https://i.ibb.co/ypcwzSJ/image.png)
 
 ### **2. Model Descriptions**
 ![Model Descriptions](https://i.ibb.co/FWx5kW1/image.png)
