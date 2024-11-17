@@ -1,0 +1,121 @@
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animated-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: bounceIn 1.5s;
+}
+
+.animated-subheader {
+    font-size: 1.2rem;
+    animation: fadeIn 3s;
+}
+
+/* Nav Bar */
+.nav-pills .nav-link.active {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Section Headings */
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Model Cards */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Table */
+table {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+thead {
+    text-align: center;
+}
+
+th {
+    color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Image Gallery */
+.img-thumbnail {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Results Section */
+#results-content {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
