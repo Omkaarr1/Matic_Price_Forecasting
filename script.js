@@ -74,6 +74,7 @@ const images = [
     { src: "https://i.ibb.co/PwL7fGJ/image.png", caption: "SVM Predictions" },
     { src: "https://i.ibb.co/MfPDZyD/image.png", caption: "LSTM Predictions" },
     { src: "https://i.ibb.co/dWsHpNT/image.png", caption: "GNU+GRU Predictions" },
+    { src: "https://i.ibb.co/CzHNt8f/result.png", caption: "Result"}
 ];
 
 // Populate gallery
